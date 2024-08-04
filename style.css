@@ -1,0 +1,116 @@
+body {
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+border: none;
+border-radius: 10px;
+background-color: #1f1f1f;
+display: flex; 
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 350px;
+padding-top: 19px;
+padding-bottom: 30px;
+}
+
+.picture {
+  width: 100px;
+      height: 100px; 
+      border-radius: 50%; 
+      object-fit: cover;
+      margin-bottom: -88px;
+      border: 1px solid black;
+}
+.location {
+  margin-top: -8px;
+  color: #c4e05c
+}
+
+.name {
+  margin-top: 100px;
+}
+
+.description {
+  color: #bdbdbd;
+}
+
+.name-description {
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 5px;
+margin-bottom: 15px;
+}
+
+.github,.frontend-m,.linkedin,.twitter,.instagram {
+  width: 250px;
+  font-size: 15px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  border: none;
+  background-color: #333333;
+  color: white;
+}
+.github:hover {
+  cursor: pointer;
+background-color: green;
+transition: background-color 0.3s ease-in-out;
+}
+
+.frontend-m:hover {
+  cursor: pointer;
+background-color: blue;
+transition: background-color 0.3s ease-in-out;
+}
+
+.linkedin:hover {
+  cursor: pointer;
+background-color: red;
+transition: background-color 0.3s ease-in-out;
+}
+
+.twitter:hover {
+  cursor: pointer;
+background-color: orange;
+transition: background-color 0.3s ease-in-out;
+}
+
+ .instagram:hover {
+  cursor: pointer;
+background-color: pink;
+transition: background-color 0.3s ease-in-out;
+}
+
+.github:active {
+background-color:#bdbdbd;
+transition: background-color 0.3s ease-in-out;
+}
+
+.frontend-m:active {
+  background-color:#bdbdbd;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.linkedin:active {
+  background-color:#bdbdbd;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.twitter:active {
+  background-color:#bdbdbd;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.instagram:active {
+  background-color:#bdbdbd;
+  transition: background-color 0.3s ease-in-out;
+}
